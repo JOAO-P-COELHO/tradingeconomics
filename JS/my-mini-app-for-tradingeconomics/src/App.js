@@ -6,7 +6,6 @@ const api_key = "ff118324a9784dd:uf05cp73mzkte9u";
 
 function App() {
   const [country, setCountry] = useState("mexico");
-  const [category, setCategory] = useState("Corruption Index");
   const [parameter, setParameter] = useState(24);
   const [dataTest1, setDataTest1] = useState([]);
   const [dataTest2, setDataTest2] = useState([]);
@@ -29,7 +28,7 @@ function App() {
         console.log(err);
       }
     })();
-  }, [country, dataTest1, dataTest2, dataTest3, category, parameter]);
+  }, [country, dataTest1, dataTest2, dataTest3, parameter]);
 
   return (
     <div className="App">
