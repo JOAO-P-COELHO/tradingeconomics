@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -29,21 +28,21 @@
   }
 }
 
-#country{
+#country {
   display: flex;
 }
 
-#category{
+#category {
   color: grey;
   font-weight: bold;
   text-decoration: underline;
 }
 
-#value{
+#value {
   font-weight: bold;
 }
 
-button{
+button {
   width: 50%;
   color: rgb(43, 43, 43);
   border-radius: 20% 20% 0% 0%;

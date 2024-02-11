@@ -55,8 +55,9 @@ function App() {
           <button onClick={() => setCountry("sweden")}>Sweden</button>
         </div>
 
-        <p> 
-          In {dataTest1} the parameter <span id = "category">{dataTest2}</span> is:  <span id = "value">{dataTest3}</span>.
+        <p>
+          In {dataTest1} the parameter <span id="category">{dataTest2}</span>{" "}
+          is: <span id="value">{dataTest3}</span>.
         </p>
       </header>
     </div>
@@ -64,4 +65,3 @@ function App() {
 }
 
 export default App;
-
