@@ -21,6 +21,7 @@ function App() {
         const data2 = response.data[parameter]["Category"];
         const data3 = response.data[parameter]["LatestValue"];
 
+        
         setDataTest1(data1);
         setDataTest2(data2);
         setDataTest3(data3);
